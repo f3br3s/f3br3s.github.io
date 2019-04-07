@@ -1,6 +1,6 @@
 ---
 layout: index-page
 title: proyectos
-list_title: Proyectos
+list_title: Algunos proyectos
 permalink: /proyectos
 ---

@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Gasolina"
+date:   2008-04-02 21:46:24 -0400
+end-date: 2012-10-02 21:46:24 -0400
+categories: literatura
+ext-url: https://web.archive.org/web/20170222024951/http://www.laculturanuestra.com/un-paranoico-es-una-persona-que-sabe-lo-que-esta-pasando/
+---
+

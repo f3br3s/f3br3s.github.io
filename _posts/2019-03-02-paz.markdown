@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Voces de la paz"
+date:   2016-04-02 21:46:24 -0400
+end-date: 2017-04-02 21:46:24 -0400
+categories: [guión]
+ext-url: https://www.behance.net/gallery/55757215/Paz-Colombia
+---
+

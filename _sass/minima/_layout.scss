@@ -12,7 +12,7 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 300;
+  font-weight: 900;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -27,6 +27,7 @@
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
+  text-transform: full-width;
 
   .nav-trigger {
       display: none;
@@ -113,6 +114,7 @@
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+
 }
 
 .contact-list,
@@ -132,6 +134,7 @@
   float: left;
   margin-bottom: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
+  margin-top: $spacing-unit;
 }
 
 .footer-col-1 {
@@ -176,7 +179,7 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  padding: 2em;
   flex: 1;
 }
 
@@ -252,4 +255,45 @@
       @include relative-font-size(1.125);
     }
   }
+}
+
+// footer //
+
+span.username, .footer-col-3 {
+  display: none;
+}
+
+footer.site-footer {
+  text-align: center;
+}
+
+@media screen and (min-width: $on-palm) {
+  footer.site-footer {
+    text-align: inherit;
+  }
+
+    .page-content {
+    padding: 20vh 20vw;
+  }
+
+  .page-content.home {
+    padding: 25vh 25vw;
+  }
+
+}
+
+
+
+@media screen and (min-width: $on-laptop) {
+  span.username, .footer-col-3 {
+    display: inherit;
+  }
+}
+.footer-col-3 {
+  padding-top: 4em;
+  text-align: right;
+}
+
+.contact-list {
+  font-size: 1.3em;
 }

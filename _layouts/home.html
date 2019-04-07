@@ -1,15 +1,21 @@
----
-layout: default-home
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<div style="display: flex">
-<div style="display:flex;justify-content: center;height: 100vh;align-content:center;">  
-	{%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-	{%- endif -%}
+  {%- include head.html -%}
 
-  {{ content }}
-</div>
-  
+  <body>
 
-</div>
+    {%- include header.html -%}
+
+    <main class="page-content home" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+      
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

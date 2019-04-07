@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Alerta que salpica"
+date:   2012-04-02 21:46:24 -0400
+end-date: 2017-11-12 21:46:24 -0400
+categories: [gráfica, publicaciones]
+ext-url: http://alertaquesalpica.me/
+---

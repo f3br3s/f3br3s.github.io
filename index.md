@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: f3br3s
+title:
 ---
-escritor + profesor + gestor editorial y multimedia
+Soy profesor de literatura latinoamericana, escritor y desarrollador de proyectos editoriales y multimedia. Enseñé en la Universidad Central de Venezuela (2013 - 2019) y en la Escuela Nacional de Gráfica Popular (2012 - 2016). Fui Project Manager en la agencia Mecha y actualmente coordino el proyecto literaturavenezolana.info.
